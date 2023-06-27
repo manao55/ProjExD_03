@@ -187,6 +187,7 @@ def main():
         # def draw_score(screen, score):
         #     score_text = font.render("Score: " + str(score), True, (255, 255, 255))
         #     screen.blit(score_text, (10, 10))
+        
         for i, bomb in enumerate(bombs):
             if beam is not None:
                 if bomb.rct.colliderect(beam.rct):
